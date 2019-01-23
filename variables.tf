@@ -1,5 +1,5 @@
 variable "schedule_expression" {
-  default     = "cron(30 22 ? * MON-SAT *)"
+  default     = "cron(00 03 ? * MON-SAT *)"
   description = "the aws cloudwatch event rule scheule expression that specifies when the scheduler runs."
 }
 
